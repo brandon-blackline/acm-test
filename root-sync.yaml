@@ -1,4 +1,4 @@
-apiVersion: Config Sync.gke.io/v1beta1
+apiVersion: configsync.gke.io/v1beta1
 kind: RootSync
 metadata:
   name: root-sync
@@ -9,3 +9,4 @@ spec:
     repo: https://github.com/brandon-blackline/acm-test
     branch: main
     dir: root-sync
+    auth: none
