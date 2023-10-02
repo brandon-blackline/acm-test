@@ -23,4 +23,4 @@ spec:
   displayName: my-folder
   folderRef:
     # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
-    external: "943065367214"
+    external: "	300342984616"
