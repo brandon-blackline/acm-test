@@ -18,7 +18,7 @@ metadata:
   labels:
     label-one: "value-one"
   name: folder-sample-in-folder
-  namespace: config-management-system
+  namespace: config-control
 spec:
   displayName: my-folder
   folderRef:
