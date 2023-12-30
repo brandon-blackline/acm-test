@@ -20,7 +20,7 @@ metadata:
   name: folder-sample-in-folder
   namespace: config-management-system
 spec:
-  displayName: my-folder
+  displayName: my-222folder
   folderRef:
     # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
     external: "399593201102"
