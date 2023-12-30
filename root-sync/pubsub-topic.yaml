@@ -4,6 +4,7 @@ metadata:
   labels:
     label-one: "value-one"
   name: pubsubtopic-sample
+  namespace: config-management-system
 spec:
   schemaSettings:
     schemaRef:
