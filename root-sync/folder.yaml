@@ -23,4 +23,4 @@ spec:
   displayName: Config Connector Sample
   folderRef:
     # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
-    external: "972374046373"
+    external: "704857089264"
