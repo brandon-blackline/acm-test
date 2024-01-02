@@ -25,5 +25,5 @@ metadata:
 spec:
   name: project222
   folderRef:
-    name: app1-department
+    name: myfolder
     namespace: config-control
