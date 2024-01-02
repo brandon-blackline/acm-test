@@ -21,7 +21,7 @@ metadata:
   labels:
     label-one: "value-one"
   name: project777
-  namespace: config-control
+ # namespace: config-control
 spec:
   name: project777
   folderRef:
