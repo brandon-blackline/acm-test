@@ -13,17 +13,17 @@
 #    external: "app1-department" # kpt-set: ${folder-name}
 #    namespace: config-control # kpt-set: ${folder-namespace}
 
-apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
-kind: Project
-metadata:
-  annotations:
-    cnrm.cloud.google.com/auto-create-network: "true"
-  labels:
-    label-one: "value-one"
-  name: project-as32999
-  namespace: config-control
-spec:
-  name: project-as32999
-  folderRef:
-    name: extremefolder
-    namespace: config-control
+#apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
+#kind: Project
+#metadata:
+#  annotations:
+#    cnrm.cloud.google.com/auto-create-network: "true"
+#  labels:
+#    label-one: "value-one"
+#  name: project-as32999
+#  namespace: config-control
+#spec:
+#  name: project-as32999
+#  folderRef:
+#    name: extremefolder
+#    namespace: config-control
