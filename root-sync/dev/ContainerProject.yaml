@@ -25,5 +25,6 @@ metadata:
 spec:
   name: project666
   folderRef:
-    name: extremefolder
-    namespace: config-control
+    external: "451481076385"
+    #name: extremefolder
+    #namespace: config-control
