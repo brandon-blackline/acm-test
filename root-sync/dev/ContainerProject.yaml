@@ -21,6 +21,7 @@ metadata:
   labels:
     label-one: "value-one"
   name: project-sample-in-folder
+  namespace: config-control
 spec:
   name: Config Connector Sample
   namespace: config-control
