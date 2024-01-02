@@ -1,8 +1,8 @@
-apiVersion: serviceusage.cnrm.cloud.google.com/v1beta1
-kind: Service
-metadata:
-  name: pubsub.googleapis.com
-  namespace: config-control
-spec:
-  projectRef:
-    external: projects/app1-land456
+#apiVersion: serviceusage.cnrm.cloud.google.com/v1beta1
+#kind: Service
+#metadata:
+#  name: pubsub.googleapis.com
+#  namespace: config-control
+#spec:
+#  projectRef:
+#    external: projects/app1-land456
