@@ -12,15 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
-kind: Folder
-metadata:
-  labels:
-    label-one: "value-one"
-  name: folder-sample-in-folder
-  namespace: config-control
-spec:
-  displayName: myfolder
-  folderRef:
-    # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
-    external: "451481076385"
+#apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
+#kind: Folder
+#metadata:
+#  labels:
+#    label-one: "value-one"
+#  name: folder-sample-in-folder
+#  namespace: config-control
+#spec:
+#  displayName: myfolder
+#  folderRef:
+#    # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
+#    external: "451481076385"
+#
