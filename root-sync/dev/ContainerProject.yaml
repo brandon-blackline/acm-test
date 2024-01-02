@@ -12,3 +12,17 @@
 #  folderRef:
 #    external: "app1-department" # kpt-set: ${folder-name}
 #    namespace: config-control # kpt-set: ${folder-namespace}
+
+apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
+kind: Project
+metadata:
+  annotations:
+    cnrm.cloud.google.com/auto-create-network: "false"
+  labels:
+    label-one: "value-one"
+  name: project-sample-in-folder
+spec:
+  name: Config Connector Sample
+  folderRef:
+    # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
+    external: "1048770845476"
