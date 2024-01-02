@@ -10,5 +10,5 @@ spec:
   billingAccountRef:
     external: "017B54-6990FF-F99DF9" # kpt-set: ${billing-account-id}
   folderRef:
-    name: app1-department # kpt-set: ${folder-name}
+    name: 451481076385 # kpt-set: ${folder-name}
     namespace: config-control # kpt-set: ${folder-namespace}
