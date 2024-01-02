@@ -20,10 +20,10 @@ metadata:
     cnrm.cloud.google.com/auto-create-network: "true"
   labels:
     label-one: "value-one"
-  name: project222
+  name: project333
   namespace: config-control
 spec:
-  name: project222
+  name: project333
   folderRef:
     name: myfolder
     namespace: config-control
