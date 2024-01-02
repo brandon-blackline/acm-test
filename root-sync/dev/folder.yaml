@@ -24,5 +24,3 @@ spec:
   folderRef:
     # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
     external: "451481076385"
-    namespace: config-control
-    
