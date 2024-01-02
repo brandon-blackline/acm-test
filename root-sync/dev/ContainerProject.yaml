@@ -20,10 +20,10 @@ metadata:
     cnrm.cloud.google.com/auto-create-network: "true"
   labels:
     label-one: "value-one"
-  name: project111
+  name: project222
   namespace: config-control
 spec:
-  name: project111
+  name: project222
   folderRef:
     # Replace "${FOLDER_ID?}" with the numeric ID of the parent folder
     external: "783681094544"
