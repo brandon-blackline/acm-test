@@ -12,14 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
-kind: Folder
-metadata:
-  labels:
-    label-one: "team-folder-a"
-  name: team-folder-a
-  namespace: config-control
-spec:
-  displayName: team-folder-a
-  folderRef:
-    external: "451481076385"
+#apiVersion: resourcemanager.cnrm.cloud.google.com/v1beta1
+#kind: Folder
+#metadata:
+#  labels:
+#    label-one: "team-folder-a"
+#  name: team-folder-a
+#  namespace: config-control
+#spec:
+#  displayName: team-folder-a
+#  folderRef:
+#    external: "451481076385"
+#
